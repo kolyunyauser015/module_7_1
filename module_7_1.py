@@ -25,7 +25,7 @@ class Shop:
             if i.name in all_products:
                 print(f'Продукт  {i.name} уже есть в магазине')
             else:
-                file.write(f'\n{i}')
+                file.write(f'{i}\n')
         file.close()
 
 
